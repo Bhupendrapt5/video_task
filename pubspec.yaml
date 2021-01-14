@@ -24,7 +24,11 @@ dependencies:
   flutter:
     sdk: flutter
   
-  video_player:
+  video_player: ^1.0.1
+  screen: ^0.0.5
+  path_provider: ^1.6.27
+  volume_slider:
+    path: volume_slider/
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -47,7 +51,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - embed/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
